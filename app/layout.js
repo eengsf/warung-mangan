@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
+import Nabvar from "@/components/Navbar";
+import HomeFirst from "@/components/HomeFirst";
+import Header from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Josefin_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +13,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="bg-white">
+      <body className={inter.className}>
+        <Header />
+        <Nabvar />
+        <div className="bg-image mb-10">
+          <HomeFirst />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
