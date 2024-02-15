@@ -35,7 +35,7 @@ const Nabvar = () => {
         className={`${
           scroll
             ? "fixed top-0 w-screen bg-black opacity-90 text-white z-30 transition-all duration-500"
-            : "opacity-0"
+            : ""
         } `}>
         <div
           className={`lg:max-w-4xl md:max-w-3xl w-screen flex justify-between items-center px-10 py-5 m-auto z-30`}>
