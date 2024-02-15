@@ -6,7 +6,6 @@ import { SiCoffeescript } from "react-icons/si";
 import { GiSausage } from "react-icons/gi";
 import MenuList from "./MenuList";
 import { useState } from "react";
-// import { motion } from "framer-motion";
 
 const MenuNavigator = () => {
   const [chicken, setChicken] = useState(true);

@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import { data } from "../utils/data";
-import { motion } from "framer-motion";
 
 const data = {
   chicken: [
@@ -220,15 +218,14 @@ const data = {
 const MenuList = ({ category }) => {
   let categoryData = [];
 
-  // Menentukan kategori yang akan ditampilkan berdasarkan properti category
   if (category === "chicken") {
-    categoryData = data.chicken.slice(0, 6); // Ambil 6 data pertama dari array chicken
+    categoryData = data.chicken.slice(0, 6);
   } else if (category === "noodle") {
-    categoryData = data.noodle.slice(0, 6); // Ambil 6 data pertama dari array drink
+    categoryData = data.noodle.slice(0, 6);
   } else if (category === "drink") {
-    categoryData = data.drink.slice(0, 6); // Ambil 6 data pertama dari array drink
+    categoryData = data.drink.slice(0, 6);
   } else if (category === "friedFood") {
-    categoryData = data.friedFood.slice(0, 6); // Ambil 6 data pertama dari array drink
+    categoryData = data.friedFood.slice(0, 6);
   }
 
   return (

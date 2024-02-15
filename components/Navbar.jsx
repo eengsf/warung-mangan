@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import NavbarList from "./NavbarList";
 import { Cookie } from "next/font/google";
-// import Header from "./Header";
 const cookie = Cookie({ subsets: ["latin"], weight: "400" });
 
 const Nabvar = () => {

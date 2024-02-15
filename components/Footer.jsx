@@ -1,8 +1,3 @@
-import { RiInstagramFill } from "react-icons/ri";
-import { FaTwitter } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-
 const Footer = () => {
   return (
     <>

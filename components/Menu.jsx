@@ -1,4 +1,3 @@
-import MenuList from "./MenuList";
 import MenuNavigator from "./MenuNavigator";
 import { Cookie } from "next/font/google";
 const cookie = Cookie({ subsets: ["latin"], weight: "400" });
